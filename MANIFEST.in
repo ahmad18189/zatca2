@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ksa_compliance *.css
+recursive-include ksa_compliance *.csv
+recursive-include ksa_compliance *.html
+recursive-include ksa_compliance *.ico
+recursive-include ksa_compliance *.js
+recursive-include ksa_compliance *.json
+recursive-include ksa_compliance *.md
+recursive-include ksa_compliance *.png
+recursive-include ksa_compliance *.py
+recursive-include ksa_compliance *.svg
+recursive-include ksa_compliance *.txt
+recursive-exclude ksa_compliance *.pyc
